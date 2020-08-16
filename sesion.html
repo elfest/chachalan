@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registrar | Chachalan</title>
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=2.0, minimun-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/sesion.css">
+        <link rel="stylesheet" href="css/font.css">
+        
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container container--flex">
+                <div class="logo-container column column--50">
+                    <h1 class="logo">CHACHALAN</h1>
+                </div>
+                <div class="main-header__contactInfo column column--50">
+                    <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">922576704</span>
+                    </p>
+                    <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Jr. Amazonas 725 / Chachapoyas - Amazonas - Perú</span>
+                    </p>
+                </div>
+            </div>
+        </header>
+        <nav class="main-nav">
+            <div class="container container--flex">
+                <span class="icon-menu" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                    <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                    <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                    <li class="menu__item"><a href="pago.html" class="menu__link">Pago | Contacto</a></li>
+                    <li class="menu__item"><a href="sesion.html" class="menu__link menu__link--select">Registrar</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="https://web.facebook.com/" class="social-icon__link"><span class="icon-facebook"></span></a>
+                    <a href="" class="social-icon__link"><span class="icon-whatsapp"></span></a>
+                    <a href="https://twitter.com/?lang=es" class="social-icon__link"><span class="icon-twitter"></span></a>
+                    <a href="https://www.instagram.com/" class="social-icon__link"><span class="icon-instagram"></span></a>
+                    <a href="https://mail.google.com/" class="social-icon__link"><span class="icon-mail"></span></a>
+                    <a href="pago.html" class="social-icon__link"><span class="icon-carrito"></span></a>
+                </div>
+            </div>
+        </nav>
+        <section class="banner">
+            <img src="img/fortaleza%20de%20ku%C3%A9lap-chachapoyas.jpg" alt="" class="banner__img">
+            <div class="banner__content">REGISTRESE GRATIS</div>
+        </section>
+        <main class="main">
+            <div class="contenedor-form">
+                <div class="toggle">
+                    <span>Crear Cuenta</span>
+                </div>
+                <div class="formulario">
+                    <h2>Iniciar Sesion</h2>
+                    <form action="#">
+                        <input type="text" placeholder="Usuario" requierd>
+                        <input type="password" placeholder="Contraseña" requierd>
+                        <input type="submit" value="Iniciar Sesion">
+                    </form>
+                </div>
+                
+                <div class="formulario">
+                    <h2>Crear Cuenta</h2>
+                    <form action="#">
+                        <input type="text" placeholder="Usuario" requierd>
+                        <input type="password" placeholder="Contraseña" requierd>
+                        <input type="email" placeholder="Correo Electronico" requierd>
+                        <input type="text" placeholder="Telefono">
+                        <input type="submit" value="Registrarse">
+                    </form>
+                </div>
+                
+                <div class="reset-password">
+                    <a href="#">Olvide mi Contraseña?</a>
+                </div>
+            </div>
+        </main>
+        <footer class="main-footer">
+                <div class="container container--flex">
+                    <div class="column column--45">
+                       <h2 class="column__footer-title">Contactanos</h2>
+                        <p class="column__footer-txt">Jr. Amazonas 725</p>
+                        <p class="column__footer-txt">Telefono: 922576704</p>
+                        <p class="column__footer-txt">consultas@chachalan.com</p>
+                    </div>
+                    <div class="column column--45">
+                       <h2 class="column__footer-title">Siguenos en nuestras redes</h2> 
+                        <p class="column__footer-txt"><a href="https://web.facebook.com" class="icon-facebook">Facebook</a></p>
+                        <p class="column__footer-txt"><a href="https://twitter.com/?lang=es" class="icon-twitter">Twitter</a></p>
+                        <p class="column__footer-txt"><a href="https://www.instagram.com/" class="icon-instagram">Instagram</a></p>
+                    </div>
+                    <p class="copy">© 2020 Chachalan | Todos los derechos reservados</p>
+                </div>
+            </footer>
+        <script src="jv/menu.js"></script>
+        <script src="jv/jquery-3.1.1.min.js"></script>
+        <script src="jv/sesion.js"></script>
+    </body>
+</html>
